@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+
+  .nav-clr {
+    background-color: #A37E2C;
+    width: 100%;
+  }
+  
+  #cosmetology-services {
+    background-color: #fff;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  footer {
+    color: #fff;
+  }
+  

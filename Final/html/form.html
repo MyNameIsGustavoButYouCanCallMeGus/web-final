@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment Form</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="icon" type="image/x-icon" href="img/photo_2023-06-17_20-44-08.jpg">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="nav-clr">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="main.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="main.html#services">Services</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+
+  <section id="appointment-form" class="py-5">
+    <div class="container">
+      <h1 class="text-center mb-5">Book an Appointment</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="mb-3">
+                <label for="service-select" class="form-label">Select a Service</label>
+                <select id="service-select" class="form-select">
+                  <option selected disabled>Select a service</option>
+                  <option value="massage">Massage</option>
+                  <option value="spa treatments">Spa treatments</option>
+                  <option value="specialsr">Specialty services</option>
+                </select>
+            </div>
+
+            <div class="mb-3" id="massage-types" style="display: none;">
+                <label for="massage-type-select" class="form-label">Select a Massage Type</label>
+                <select id="massage-type-select" class="form-select">
+                  <option selected disabled>Select a Massage type</option>
+                  <option value="classic">Classic massage</option>
+                  <option value="thai">Thai massage</option>
+                  <option value="head-neck">Head and neck massage</option>
+                  <option value="anti-cellulite">Anti-cellulite massage</option>
+                  <option value="lymphatic">Lymphatic drainage massage</option>
+                </select>
+              </div>
+        
+              <div class="mb-3" id="spa treatments-types" style="display: none;">
+                <label for="spa treatments-type-select" class="form-label">Select a Spa treatment</label>
+                <select id="spa treatments-type-select" class="form-select">
+                  <option selected disabled>Select a Spa treatment type</option>
+                  <option value="facial">Facial</option>
+                  <option value="scrub">Scrub</option>
+                  <option value="anti-cellulite-wrap">Anti-cellulite wrap</option>
+                  <option value="paraffin therapy">Paraffin therapy</option>
+                </select>
+              </div>
+        
+              <div class="mb-3" id="specialsr-types" style="display: none;">
+                <label for="specialsr-type-select" class="form-label">Select a Specialty Services</label>
+                <select id="specialsr-type-select" class="form-select">
+                  <option selected disabled>Select a Specialty Services type</option>
+                  <option value="sauna">Infrared sauna</option>
+                  <option value="hydromassage">Hydromassage</option>
+                  <option value="yoga-meditation">Yoga and meditation</option>
+                </select>
+              </div>
+
+            <div class="mb-3">
+              <label for="date" class="form-label">Date</label>
+              <input type="date" class="form-control" id="date">
+            </div>
+            <div class="mb-3">
+              <label for="time" class="form-label">Time</label>
+              <input type="time" class="form-control" id="time">
+            </div>
+            <div class="text-center">
+              <button type="submit" class="submitBtn btn btn-primary" id="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p>&copy; 2023 Spa Salon. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p>Address: St. Mangilik-El, 15, City: Astana</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+  <script src="js/form.js"></script>
+</body>
+
+</html>

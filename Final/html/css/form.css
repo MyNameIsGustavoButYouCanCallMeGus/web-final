@@ -1,0 +1,37 @@
+body {
+  font-family: "Garamond", serif;
+}
+
+#appointment-form h1 {
+  color: #7D2020;
+}
+
+.nav-clr {
+  background-color: #A37E2C;
+  width: 100%;
+}
+
+.form-label {
+  color: #7D2020;
+}
+
+.form-control {
+  border-color: #A37E2C;
+}
+
+.form-select {
+  border-color: #A37E2C;
+}
+
+.submitBtn {
+  background-color: #006039;
+  border-color: #006039;
+  color: #fff;
+}
+
+.submitBtn:hover {
+  background-color: #A37E2C;
+  border-color: #A37E2C;
+}
+
+  

@@ -1,0 +1,164 @@
+/* Стили для шапки */
+.jumbotron {
+    color: #006039;
+    text-align: center;
+    padding: 100px 0;
+  }
+
+  .nav-clr {
+    background-color: #A37E2C;
+    width: 100%;
+  }
+
+  .textclr {
+    color: white;
+  }
+
+  /* Стили для секции о компании */
+  #about-company {
+    background-color: #A37E2C;
+    color: #000000;
+    text-align: center;
+    padding: 80px 0;
+  }
+
+  .company{
+    text-align: left;
+  }
+
+  /* Стили для услуг */
+  #services {
+    padding: 50px 0;
+    font-family: "Garamond", serif;
+    font-size: 1rem;
+    background-color: #006039;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .card-body{
+    background-color: #A37E2C;
+  }
+
+  .card-title{
+    text-align: center;
+  }
+  
+  /*Стили для сотрудников*/
+  #our-emp {
+    background-color: #006039;
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .text-center{
+    color: #fff;
+  }
+  
+  .emp-member {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .emp-member-image img {
+    border-radius: 30%;
+    max-width: 200px;
+  }
+  
+  .emp-member-name {
+    font-family: "Garamond", serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  .emp-member-position {
+    font-family: Monaco, monospace;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  
+  /* Стили для контактов */
+  #contact {
+    padding: 50px 0;
+    font-family: Monaco, monospace;
+    font-size: 1.2rem;
+    background-color: #A37E2C;
+  }
+  
+  /* Стили для подвала */
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 1.8rem;
+  }
+  
+  /* Дополнительные стили */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+
+  }
+  
+  .card-img-top{
+    height: 350px;
+}
+
+#animated-image {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  width: 400px;
+  height: 400px;
+}
+
+ 
+.btn-primary{
+  color: #006039;
+}
+
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+
+  /* Стили для заголовков */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Garamond", serif;
+    font-size: 2rem;
+  }
+
+  h2{
+    text-align: center;
+  }
+  
+  /* Стили для главной страницы */
+  body {
+    font-family: Monaco, monospace;
+    font-size: 1.7rem;
+  }
+  
+  #gallery {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .gallery-item img {
+    width: 80%;
+    height: 400px;
+  }
